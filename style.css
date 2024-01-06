@@ -1,0 +1,55 @@
+body{
+   background-color: black; 
+   margin:0;
+   padding:0;
+}
+.application{
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px 20px;
+    margin: 200px 400px;
+    border-radius: 15px;
+    
+    
+}
+.application h2{
+    font-size:25px;
+    font-weight: 500;
+    color:black;
+    border-bottom: 1px solid black;
+    padding:10px;
+}
+.quiz h3{
+    font-size:18px;
+    font-weight: 300;
+    padding: 0px 10px;
+}
+#options-button{
+    padding-left:10px;
+    }
+.btn{
+    padding:5px;
+    width:90%;
+    background-color: white;
+    margin-bottom: 7px;  
+    text-align: left;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+.next-btn{
+    background-color: navy;
+    color: white;
+    width:20%;
+    margin-right: 60px;
+    float:right;
+    display:none;
+}
+.correct{
+    background-color: greenyellow;
+}
+.incorrect{
+    background-color: red;
+}
